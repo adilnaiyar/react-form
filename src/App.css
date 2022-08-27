@@ -40,6 +40,7 @@ input[type=text], input[type=email], input[type=password] {
 }
 
 pre {
+  margin-top: 100px;;
   width: 70%;
   color: #fff;
   font-size: larger;
@@ -54,6 +55,7 @@ pre {
   font-size: 16px;
   cursor: pointer;
   text-align: center;
+  border-radius: 20px;
 }
 
 .button:hover{
@@ -62,6 +64,7 @@ pre {
 
 span {
   color: red;
+  padding-left: 8px;
 }
 
 .message{
