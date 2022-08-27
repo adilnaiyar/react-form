@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const initialValues = { username: "", email: "", password: "" };
   const [formValues, setFormValues] = useState(initialValues);
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, SetIsSubmit] = useState(false);
