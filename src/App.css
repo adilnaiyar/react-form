@@ -1,0 +1,71 @@
+body {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 70%;
+  border:1px solid #dfdfdf;
+  padding:20px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.field {
+  padding: 5px;
+}
+
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover{
+  opacity: 0.8;
+}
+
+span {
+  color: red;
+}
+
+.message{
+  color: rgb(206, 220, 206);
+  font-weight: 500;
+  font-size: larger;
+}
